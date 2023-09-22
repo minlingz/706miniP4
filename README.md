@@ -1,5 +1,7 @@
 # CI using GitHub Actions of Python Data Science Project
-[![Install](https://github.com/minlingz/CIDS/actions/workflows/install.yml/badge.svg)](https://github.com/minlingz/CIDS/actions/workflows/install.yml)[![Format](https://github.com/minlingz/CIDS/actions/workflows/format.yml/badge.svg)](https://github.com/minlingz/CIDS/actions/workflows/format.yml)[![Lint](https://github.com/minlingz/CIDS/actions/workflows/lint.yml/badge.svg)](https://github.com/minlingz/CIDS/actions/workflows/lint.yml)[![Test](https://github.com/minlingz/CIDS/actions/workflows/test.yml/badge.svg)](https://github.com/minlingz/CIDS/actions/workflows/test.yml)
+![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)
+![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
+![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
 
 Continuous Integration using GitHub Actions of Python Data Science Project
 
