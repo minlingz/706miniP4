@@ -28,3 +28,10 @@ jobs:
           
       - name: Format with black
         run: make format
+      - name: Update README badges
+        run: |
+          echo "## Build Status" > README.md
+          echo "" >> README.md
+          echo "Python 3.9: [![Build Status](https://github.com/minlingz/706miniP4/workflows/Python%203.9/badge.svg)](https://github.com/<username>/<repository>/actions?query=workflow%3A%22Python+3.9%22)" >> README.md
+          echo "Python 3.10: [![Build Status](https://github.com/minlingz/706miniP4/workflows/Python%203.10/badge.svg)](https://github.com/<username>/<repository>/actions?query=workflow%3A%22Python+3.10%22)" >> README.md
+          echo "Python 3.11: [![Build Status](https://github.com/minlingz/706miniP4/workflows/Python%203.11/badge.svg)](https://github.com/<username>/<repository>/actions?query=workflow%3A%22Python+3.11%22)" >> README.md
